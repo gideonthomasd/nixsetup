@@ -13,5 +13,5 @@ mount /dev/disk/by-label/boot /mnt/boot
 nixos-generate-config --root /mnt
 git clone https://github.com/gideonthomasd/configuration.git
 cd configuration
-cp configuration.nix /mnt/etc/nixos/configuration.nix
+cp configurationefi.nix /mnt/etc/nixos/configuration.nix
 nixos-install
